@@ -4,6 +4,8 @@ SReMoku is a fork of [Remoku](https://github.com/gonzotek/remoku), a web app for
 SReMoku launches a small Express server to serve Remoku on `localhost:7049`, then opens a small Electron app which launches that URL.
 It is currently underdevelopment, but stable.
 
+<img width="432" alt="image" src="https://user-images.githubusercontent.com/12804079/123563105-ccff4800-d780-11eb-909a-2f2c9d7d7f84.png">
+
 To launch:
 
 - Clone this repo
