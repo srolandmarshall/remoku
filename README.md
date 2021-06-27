@@ -4,6 +4,13 @@ SReMoku is a fork of [Remoku](https://github.com/gonzotek/remoku) is a web app f
 SReMoku launches a small Express server to serve Remoku on `localhost:7049`.
 It is currently underdevelopment, but stable.
 
+Current to do list:
+
+- Finish README
+- Add Macros file import
+- Add Environment variable
+- Add Build for Application
+
 Copyright (c) 2021, S. Roland Marshall
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
