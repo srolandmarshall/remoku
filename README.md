@@ -1,7 +1,7 @@
 # SReMoku
 
 SReMoku is a fork of [Remoku](https://github.com/gonzotek/remoku), a web app for Roku remote control.
-SReMoku launches a small Express server to serve Remoku on `localhost:7049`.
+SReMoku launches a small Express server to serve Remoku on `localhost:7049`, then opens a small Electron app which launches that URL.
 It is currently underdevelopment, but stable.
 
 To launch:
