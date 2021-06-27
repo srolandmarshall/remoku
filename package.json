@@ -1,5 +1,5 @@
 {
-  "name": "remoku",
+  "name": "sremoku",
   "version": "1.0.0",
   "description": "remoke hosted on express",
   "main": "main.js",
