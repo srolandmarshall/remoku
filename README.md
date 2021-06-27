@@ -4,12 +4,23 @@ SReMoku is a fork of [Remoku](https://github.com/gonzotek/remoku) is a web app f
 SReMoku launches a small Express server to serve Remoku on `localhost:7049`.
 It is currently underdevelopment, but stable.
 
-To run:
+To launch:
 
 - Clone this repo
 - `cd` to location of clone
 - `npm install`
 - `npm start`
+
+Add your TV:
+
+- Launch SReMoku
+- Navigate to Settings
+- Launch a Terminal window
+- Type `arp -a`
+- Find the IP address for your TV (should be obviously named)
+- Go to **Manual Setup**
+- Paste IP address under **Add**
+- Hit the `+` button
 
 Current to do list:
 
