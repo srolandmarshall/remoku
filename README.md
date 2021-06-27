@@ -15,9 +15,10 @@ Add your TV:
 
 - Launch SReMoku
 - Navigate to Settings
-- Launch a Terminal window
-- Type `arp -a`
-- Find the IP address for your TV (should be obviously named)
+- If you know the IP of your Roku, skip these steps:
+  - Launch a Terminal window
+  - Type `arp -a`
+  - Find the IP address for your Roku and copy it.
 - Go to **Manual Setup**
 - Paste IP address under **Add**
 - Hit the `+` button
