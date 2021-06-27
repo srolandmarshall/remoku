@@ -1,0 +1,30 @@
+{
+  "name": "remoku",
+  "version": "1.0.0",
+  "description": "remoke hosted on express",
+  "main": "main.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "electron": "^13.1.4"
+  },
+  "scripts": {
+    "test": "test",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srolandmarshall/remoku.git"
+  },
+  "keywords": [
+    "remote",
+    "roku"
+  ],
+  "author": "S. Roland Marshall",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/srolandmarshall/remoku/issues"
+  },
+  "homepage": "https://github.com/srolandmarshall/remoku#readme"
+}
