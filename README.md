@@ -4,9 +4,15 @@ SReMoku is a fork of [Remoku](https://github.com/gonzotek/remoku) is a web app f
 SReMoku launches a small Express server to serve Remoku on `localhost:7049`.
 It is currently underdevelopment, but stable.
 
+To run:
+
+- Clone this repo
+- `cd` to location of clone
+- `npm install`
+- `npm start`
+
 Current to do list:
 
-- Finish README
 - Add Macros file import
 - Add Environment variable
 - Add Build for Application
