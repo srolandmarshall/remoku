@@ -2008,7 +2008,8 @@ window.onload = function () {
     getConfig("macros") && getConfig("macros").length > 0
       ? JSON.parse(getConfig("macros"))
       : [
-          { Email: [{ text: "gonzotek@gmail.com" }] },
+          { Email: [{ text: "samuel.r.marshall@gmail.com" }] },
+          { MaggieEmail: [{ text: "depentum@gmail.com" }] },
           { Home: [{ keypress: "Home" }] },
           {
             "Developer Screen": [

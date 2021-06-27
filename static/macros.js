@@ -1,0 +1,81 @@
+const macros = [
+  { Email: [{ text: "samuel.r.marshall@gmail.com" }] },
+  { MaggieEmail: [{ text: "depentum@gmail.com" }] },
+  { Home: [{ keypress: "Home" }] },
+  {
+    "Developer Screen": [
+      { keypress: "Home" },
+      { keypress: "Home" },
+      { keypress: "Home" },
+      { keypress: "Up" },
+      { keypress: "Up" },
+      { keypress: "Right" },
+      { keypress: "Left" },
+      { keypress: "Right" },
+      { keypress: "Left" },
+      { keypress: "Right" },
+    ],
+  },
+  {
+    "Dump Core": [
+      { keypress: "Home" },
+      { keypress: "Home" },
+      { keypress: "Home" },
+      { keypress: "Home" },
+      { keypress: "Home" },
+      { keypress: "Up" },
+      { keypress: "Rev" },
+      { keypress: "Rev" },
+      { keypress: "Fwd" },
+      { keypress: "Fwd" },
+    ],
+  },
+  {
+    "Secret Screen": [
+      { keypress: "Home" },
+      { keypress: "Home" },
+      { keypress: "Home" },
+      { keypress: "Home" },
+      { keypress: "Home" },
+      { keypress: "Fwd" },
+      { keypress: "Fwd" },
+      { keypress: "Fwd" },
+      { keypress: "Rev" },
+      { keypress: "Rev" },
+    ],
+  },
+  {
+    "Bit Rate Override": [
+      { keypress: "Home" },
+      { keypress: "Home" },
+      { keypress: "Home" },
+      { keypress: "Home" },
+      { keypress: "Home" },
+      { keypress: "Rev" },
+      { keypress: "Rev" },
+      { keypress: "Rev" },
+      { keypress: "Fwd" },
+      { keypress: "Fwd" },
+    ],
+  },
+  {
+    "Channels Info": [
+      { keypress: "Home" },
+      { keypress: "Home" },
+      { keypress: "Home" },
+      { keypress: "Up" },
+      { keypress: "Up" },
+      { keypress: "Left" },
+      { keypress: "Right" },
+      { keypress: "Left" },
+      { keypress: "Right" },
+      { keypress: "Left" },
+    ],
+  },
+  {
+    RepeatPlayWait: [{ repeat: "5" }, { keypress: "Play" }, { wait: "30:00" }],
+  },
+  { "Launch Channel Store": [{ launch: "11?contentId=12" }] },
+];
+
+export default macros;
