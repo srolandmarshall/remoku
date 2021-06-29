@@ -7,15 +7,25 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "electron": "^13.1.4"
+    "electron": "^13.1.4",
+    "electron-builder": "^22.11.7"
   },
   "scripts": {
     "test": "test",
-    "start": "electron ."
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "com.srmoku.app",
+    "mac": {
+      "category": "public.app-category.utilities",
+      "icon": "build/icon.png"
+    }
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/srolandmarshall/remoku.git"
+    "url": "git+https://github.com/srolandmarshall/sremoku.git"
   },
   "keywords": [
     "remote",
@@ -24,7 +34,8 @@
   "author": "S. Roland Marshall",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/srolandmarshall/remoku/issues"
+    "url": "https://github.com/srolandmarshall/sremoku/issues"
   },
-  "homepage": "https://github.com/srolandmarshall/remoku#readme"
+  "homepage": "https://github.com/srolandmarshall/sremoku#readme",
+  "postinstall": "electron-builder install-app-deps"
 }
